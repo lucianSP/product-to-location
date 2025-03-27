@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product to Location Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Product to Location Assignment</h1>
+
+    <div class="upload-section">
+      <label>Import Rack Code Locations CSV:
+        <input type="file" id="locationFile" accept=".csv">
+      </label>
+      <label>Import Product List CSV:
+        <input type="file" id="productFile" accept=".csv">
+      </label>
+    </div>
+
+    <div id="tableContainer"></div>
+
+    <button id="exportBtn" class="export-btn">Export CSV</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
